@@ -1,0 +1,2 @@
+# AI-MACHINE-LEARNING-FOUNDATIONS
+Assignments for ML course

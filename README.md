@@ -34,7 +34,7 @@ assigments. Was a very simple install. Another resource I used: https://dev.to/t
 ## Step 3: Data Splitting (before any feature engineering)
 - Train-validation-test split: 80-10-10 or 70-15-15 split
 
-## Step 4: Encoding of Categorical Variables
+## Step 4: Feature Engineering & Encoding of Categorical Variables
 - I could encode sex before splitting since it’s just a binary variable (0/1), but I will encode all categorical variables together here for consistency and clarity.
 - Creating a new FamilySize feature (SibSp + Parch + 1) to capture group survival likelihood.
 - Binning age into categories (child, teen, adult, senior) to account for non-linear effects.
